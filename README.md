@@ -27,3 +27,8 @@ Edit paths and sample name in the script:
 sample_name="YOUR_SAMPLE"
 input_dir="/path/to/fastq"
 result="/path/to/output"
+
+
+Submit to SLURM:
+
+sbatch gatk_bwa_slurm_pipeline.sh
